@@ -1,11 +1,4 @@
-# Compose Sample
-
-A project template with the following objectives in mind:
-
-* use **modern UI** tools
-* use a **single source of truth**
-* make it **painless** to write **new features**
-* optimize for **incremental build**
+# Compose Sample MVI
 
 ## Technical stack
 
@@ -47,16 +40,3 @@ Feature module plugins:
 * app.feature.domain
 * app.feature.nav
 * app.feature.ui
-
-Each adds all requirements for the module of a given layer, save the android namespace.
-
-Navigation is using dedicated modules for stronger feature isolation.
-
-## TODO
-
-* ui: coil
-* room: database in the library module makes sense for this sample app, for not for a real app. If
-  you find a multi-module pattern for room, please call me (I'd say this is not possible, by design)
-* room: migration handling
-* data: inject coroutine scope
-* vm: allow shared vms in a given navigationGraph
