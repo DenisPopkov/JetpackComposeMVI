@@ -1,42 +1,10 @@
 # Compose Sample MVI
 
-## Technical stack
+## MVI diagram
+<img src="https://github.com/DenisPopkov/JetpackComposeMVI/assets/57343209/db67e0f8-490d-46c9-a416-b2cc1bb9a1f7" height="600">
 
-* arch:
-  - app: clean architecture with **features x layer modularization**
-  - ui: simplified **MVI**
-* build: **kts** gradle build scripts + gradle **convention plugins** to simplify + **version catalog**
-* dep injection: **hilt** + **auto-dagger**
-* ui: **compose** + **material3** + navigation
-* async: **coroutines** & **flow**
-* db: **room**
-* rest: **retrofit**
-* annotation processing: **ksp** only, no kapt
+## Technical stack
+<img src="https://github.com/DenisPopkov/JetpackComposeMVI/assets/57343209/945cc6ef-be99-4433-b049-9424bb80c728" height="600">
 
 ## App structure
-
-Modules hierarchy:
-
-* **app**
-* **core**
-  * feature
-    * nav
-    * ui
-  * ui
-    * theme
-* **features**
-  * library
-    * data
-    * domain
-    * nav
-    * ui
-  * spotlight
-    * ui
-* **gradle-plugins**
-
-Feature module plugins:
-
-* app.feature.data
-* app.feature.domain
-* app.feature.nav
-* app.feature.ui
+<img src="https://github.com/DenisPopkov/JetpackComposeMVI/assets/57343209/9aed88c1-fb45-4ce8-bdd9-78b3e11ab5fd" height="600">
