@@ -7,7 +7,7 @@ android {
 }
 
 dependencies {
-    implementation(project(":features:library:domain"))
+    implementation(project(":core:feature:domain"))
     implementation(project(":features:library:nav"))
     implementation(project(":features:spotlight:nav"))
     implementation(project(":theme"))

@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "ru.popkov.composesample.features.library.domain"
+    namespace = "ru.popkov.android.core.feature.domain"
 }
 
 dependencies {

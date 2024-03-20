@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "ru.popkov.composesample.features.library.data"
+    namespace = "ru.popkov.android.core.feature.data"
 }
 
 dependencies {
-    implementation(project(":features:library:domain"))
+    implementation(project(":core:feature:domain"))
     implementation(libs.kotlin.coroutines)
     implementation(libs.bundles.retrofit)
 }

@@ -34,7 +34,7 @@ android {
 }
 
 dependencies {
-    implementation(project(":features:library:data"))
+    implementation(project(":core:feature:data"))
     implementation(project(":features:library:ui"))
     implementation(project(":features:spotlight:ui"))
     implementation(project(":theme"))
