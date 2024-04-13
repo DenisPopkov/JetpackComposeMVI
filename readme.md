@@ -7,7 +7,3 @@
 ## Technical stack
 
 <img src="https://github.com/DenisPopkov/JetpackComposeMVI/assets/57343209/945cc6ef-be99-4433-b049-9424bb80c728" height="600" alt="">
-
-## App structure
-
-<img src="https://github.com/DenisPopkov/JetpackComposeMVI/assets/57343209/9aed88c1-fb45-4ce8-bdd9-78b3e11ab5fd" height="600" alt="">
